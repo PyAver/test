@@ -14,7 +14,6 @@ if ($request.headers['Cookie']) {
         $notification.post("Walkr Cookie 保存錯誤‼️", "", "請重新登入")
     } else {
         $notification.post("Walkr Cookie 保存成功🎉", "", "")
-        $notification.post(saveToken, "", "")
     }
 } else {
     $notification.post("Walkr Cookie 保存失敗‼️", "", "請重新登入")
